@@ -1,0 +1,42 @@
+body{
+  font-size:medium;
+  font-style: italic;
+  background-color:lightblue;
+  margin-top:170px;
+}
+.container{
+  display: flex;
+  height:50%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 30px;
+}
+.name-input{
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+ border: 2px solid;
+
+}
+.toggle_btn{
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  padding: 10px;
+  background-color:#1dabdb;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+}
+.container.dark{
+  background-color:aqua;
+  color: white;
+}
+.container.dark .toggle_btn{
+  background-color: blue;
+}
